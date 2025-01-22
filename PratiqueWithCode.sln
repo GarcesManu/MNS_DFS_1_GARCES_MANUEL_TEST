@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluationSampleCode", "Eva
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluationSampleCode.UnitTests", "EvaluationSampleCode.UnitTests\EvaluationSampleCode.UnitTests.csproj", "{38FD6D3A-C8D1-4EFE-9EED-64AFB5D89AB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalutionSampleCodeTest", "EvalutionSampleCodeTest\EvalutionSampleCodeTest.csproj", "{B639AC6E-8106-4CE9-881D-266D59D32757}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{38FD6D3A-C8D1-4EFE-9EED-64AFB5D89AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FD6D3A-C8D1-4EFE-9EED-64AFB5D89AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FD6D3A-C8D1-4EFE-9EED-64AFB5D89AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B639AC6E-8106-4CE9-881D-266D59D32757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B639AC6E-8106-4CE9-881D-266D59D32757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B639AC6E-8106-4CE9-881D-266D59D32757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B639AC6E-8106-4CE9-881D-266D59D32757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

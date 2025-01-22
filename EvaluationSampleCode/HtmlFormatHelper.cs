@@ -10,25 +10,36 @@ namespace EvaluationSampleCode
     {
         public string GetBoldFormat(string content)
         {
+            if (content == null)
+                throw new ArgumentNullException(nameof(content));
+                
             return $"<b>{content}</b>";
         }
 
         public string GetItalicFormat(string content)
         {
+            if (content == null)
+                throw new ArgumentNullException(nameof(content));
+                
             return $"<i>{content}</i>";
         }
 
         // Plus difficile
         public string GetFormattedListElements(List<string> contents)
         {
+            if (contents == null)
+                throw new ArgumentNullException(nameof(contents));
+
             var htmlList = new StringBuilder();
             htmlList.Append("<ul>");
 
-            contents.ForEach(x => {
-                htmlList.Append("<li>");
-                htmlList.Append(x);
-                htmlList.Append("</li>");
-            });
+            foreach (var content in contents)
+            {
+                if (content == null)
+                    throw new ArgumentNullException("List item cannot be null");
+                    
+                htmlList.Append($"<li>{content}</li>");
+            }
 
             htmlList.Append("</ul>");
             return htmlList.ToString();
